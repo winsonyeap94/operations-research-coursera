@@ -141,7 +141,7 @@ class OptimisationModelQ2:
 
 if __name__ == "__main__":
 
-    Q2_Model = OptimisationModelQ2(m=3)
+    Q2_Model = OptimisationModelQ2(m=2)
     Q2_Model.build_and_run()
 
     print(f"(Objective Function) Max. PWFT: {Q2_Model.model.max_pwft.extract_values()}")
